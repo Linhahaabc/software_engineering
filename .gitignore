@@ -1,0 +1,96 @@
+# ==========================================
+# 1. AI / 机器学习 (处理那几个 G 的大文件)
+# ==========================================
+.hf_cache/
+.insightface_models/
+sd_models/
+controlnet_models/
+lora_models/
+outputs/
+*.safetensors
+*.bin
+*.pth
+*.onnx
+
+# ==========================================
+# 2. Python (后端)
+# ==========================================
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+ENV/
+.env
+.pytest_cache/
+
+# ==========================================
+# 3. Node.js / Svelte (前端)
+# ==========================================
+node_modules/
+.svelte-kit/
+/build/
+/dist/
+.vercel/
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# ==========================================
+# 4. Java (后端/工具)
+# ==========================================
+*.class
+*.log
+*.jar
+*.war
+*.ear
+target/
+.gradle/
+build/
+!gradle-wrapper.jar
+
+# ==========================================
+# 5. C++ (底层/插件)
+# ==========================================
+*.o
+*.obj
+*.exe
+*.out
+*.app
+*.so
+*.dylib
+*.dll
+# 编译输出目录
+bin/
+obj/
+x64/
+Debug/
+Release/
+# IDE 相关 (Visual Studio / CMake)
+.vs/
+out/
+CMakeCache.txt
+CMakeFiles/
+CMakeSettings.json
+
+# ==========================================
+# 6. IDE / 编辑器 相关
+# ==========================================
+.idea/
+.vscode/
+*.swp
+*.swo
+.project
+.classpath
+.settings/
+
+# ==========================================
+# 7. 操作系统相关
+# ==========================================
+.DS_Store
+Thumbs.db
+desktop.ini
